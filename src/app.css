@@ -2,45 +2,70 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
   background: #d6f4ff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 h1 {
   text-align: center;
   margin-top: 4rem;
+  margin-bottom: 2rem;
   text-transform: capitalize;
+}
+input {
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 22rem;
 }
 .recipelist {
   width: 90vw;
   max-width: 1170px;
-  margin: 5rem auto;
+  margin: 1rem auto;
   display: grid;
   gap: 2rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 967px) {
   .recipelist {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 966px) {
   .recipelist {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 671px) {
+  .recipelist {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .recipe {
   background: #54ecc4;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   text-align: center;
 }
+.recipe a {
+  text-decoration: none;
+}
 .recipe h3 {
-  color: #fff;
-  margin: 0 auto;
-  margin-bottom: 0.5rem;
-  width: 16rem;
-  height: 1.5rem;
-  background: #000;
+  color: #444;
+  /* padding: 0.4rem; */
+  /* margin: 0 auto; */
+  margin-bottom: 0.8rem;
+  /* width: 16rem; */
+  height: 1.6rem;
+  background: #ffffff;
   text-transform: capitalize;
   border-radius: 1rem;
 }
