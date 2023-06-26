@@ -54,7 +54,7 @@ export default [
     img: "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/b72af7d1fd7e4845877fa3a4c07c60db_1681879693~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1687719600&x-signature=hAur9TbYuO9Vf40aYe2amqvJQwQ%3D",
   },
   {
-    id: 11,
+    id: 131,
     resipi: "tea infused egg drop soup",
     link: "https://www.tiktok.com/@dapoq_pdot/video/7223238656780176641",
     img: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/feecce1965f84641a508720eb409b0eb_1681792502~tplv-efzqqlc8t1-1:480:480.jpeg?x-expires=1687719600&x-signature=MJbAwJKmXdnyXS4YX3PeV08Z5LI%3D",
@@ -306,7 +306,7 @@ export default [
     img: "https://p16-sign-va.tiktokcdn.com/tos-useast2a-p-0037-aiso/05313b53fa5642549394d481b738a571_1665230147~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1687719600&x-signature=j43Veqg%2FXvGBpIfxuH6lCTyuCfo%3D",
   },
   {
-    id: 51,
+    id: 132,
     resipi: "udang mala",
     link: "https://www.tiktok.com/@dapoq_pdot/video/7149130041622793499",
     img: "https://p16-sign-va.tiktokcdn.com/tos-useast2a-p-0037-aiso/bc3039e3235f46e0b5415c0b40062c99_1664536600~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1687719600&x-signature=5QVgQ%2Bl618zDG%2Fs8XBVrh%2B8IZgc%3D",

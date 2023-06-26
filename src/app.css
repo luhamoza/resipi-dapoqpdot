@@ -68,7 +68,7 @@ input {
   color: #444;
   margin-bottom: 0.2rem;
   background: #ffffff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-radius: 1rem;
   font-weight: 400;
   letter-spacing: 0.03rem;
