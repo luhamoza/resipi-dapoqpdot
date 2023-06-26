@@ -38,9 +38,9 @@ const App = () => {
                 <a href={link}>
                   <h3>{resipi}</h3>
                 </a>
-                <a href={link}>
+                {/* <a href={link}>
                   <img src={img} alt="gambar makanan" />
-                </a>
+                </a> */}
               </article>
             );
           })}
